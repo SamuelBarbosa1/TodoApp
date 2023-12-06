@@ -1,6 +1,6 @@
 # TodoApp
 
-
+There is a notification folder and to try to activate a notification for the project, I haven't finished it so for now, if you want to add it to the project, feel free.
 
 The project is still under development and the next updates will focus on the following tasks:
 
