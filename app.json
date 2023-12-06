@@ -21,6 +21,12 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.pewiebe147.TodoApp"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b098592b-75e7-45e8-b241-fc996123bd73"
       }
     }
   }

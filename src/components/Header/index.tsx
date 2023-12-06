@@ -1,8 +1,9 @@
-import { View, Image, TextInput, TouchableOpacity, Text } from 'react-native'
-import { styles } from './styles'
-import logoImage from '../../assets/logo.png'
-import { theme } from '../../theme'
-import { MaterialCommunityIcons } from '@expo/vector-icons'
+import React from 'react';
+import { View, Image, TextInput, TouchableOpacity, Text } from 'react-native';
+import { styles } from './styles';
+import logoImage from '../../assets/logo.png';
+import { theme } from '../../theme';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 type HeaderProps = {
 	task: string

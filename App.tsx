@@ -1,28 +1,22 @@
-import { StatusBar } from 'react-native'
-import {
-	useFonts,
-	Inter_400Regular,
-	Inter_700Bold,
-} from '@expo-google-fonts/inter'
-import { HomeScreen } from './src/screens'
-import { Loading } from './src/components/Loading'
+// App.js
+import React from 'react';
+import { StatusBar } from 'react-native';
+import { useFonts, Inter_400Regular, Inter_700Bold } from '@expo-google-fonts/inter';
+import { HomeScreen } from './src/screens';
+import { Loading } from './src/components/Loading';
 
 export default function App() {
-	const [fontsLoaded] = useFonts({
-		Inter_400Regular,
-		Inter_700Bold,
-	})
+  const [fontsLoaded] = useFonts({
+    Inter_400Regular,
+    Inter_700Bold,
+  });
 
-	return (
-		<>
-			{fontsLoaded ? <HomeScreen /> : <Loading />}
-			<StatusBar
-				barStyle="light-content"
-				backgroundColor="transparent"
-				translucent
-			/>
-		</>
-	)
+  return (
+    <>
+      {fontsLoaded ? <HomeScreen /> : <Loading />}
+      <StatusBar barStyle="light-content" backgroundColor="transparent" translucent />
+    </>
+  );
 }
 
 /* Querido programador:
