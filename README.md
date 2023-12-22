@@ -50,4 +50,6 @@ npx expo start
 <img src="https://img.shields.io/badge/AsyncStorage-007ACC?style=for-the-badge&logo=javascript&logoColor=white" />
 <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" />
 <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/javascript-007ACC?style=for-the-badge&logo=javascript&logoColor=white" />
 </div>
